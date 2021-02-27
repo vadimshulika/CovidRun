@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset = "UTF-8"/>
+        <title>Covidrun</title>
+        <link href = "css/bootstrap.css" rel = "stylesheet" type = "text/css"/>
+        <link href = "css/style.css" rel = "stylesheet" type = "text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+    </head>
+ 
+    <body>
+      <div class="info"  id="yak">Нажмите на клавишу W чтобы прыгнуть</br>старайтесь не заболеть, посмотрим какой вы поставите рекорд!</div>
+      <div class="canvas">
+        <canvas id="canvas" width="1000" height="700"></canvas>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="offset-xl-4"></div>
+          <button class="play" onclick="playGame()">Играть</button>
+        </div>
+        <div class="row colr">
+          <div class="col-xl-12">
+            <div class="info">О ИГРЕ</div>
+            <div class="game_text">
+              Суть игры заключается в преодоление препятствий игровым персонажем - мальчиком Петей. Препятствие представлены в виде вируса. Помогите Пете не заболеть. Чтобы перепрыгнуть через препятствие, игрок должен нажать кнопку W на клавиатуре. Игрок, набравший более N количества баллов, выигрывает. Игрок, набравший менее N баллов, проигрывает. Приятного времяпрепровождения :) 
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script src = "js/js_file.js" type = "text/javascript"></script>
+</html>
